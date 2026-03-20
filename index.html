@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jina | Software Engineer</title>
+    <meta
+      name="description"
+      content="Jina (Anujin Gantugs) - Software Engineer portfolio for graduate and junior SWE roles."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow" aria-hidden="true"></div>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">Jina</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">Menu</button>
+        <nav class="nav-links" id="navLinks">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="section hero reveal">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Open to SWE internships and graduate roles</p>
+            <h1>Jina (Anujin Gantugs)</h1>
+            <p class="subtitle">Software Engineer</p>
+            <p class="lead">
+              Computer Science (AI major) student building full-stack web applications with React,
+              Next.js, Node.js, PostgreSQL, and Prisma.
+            </p>
+            <div class="cta-row">
+              <a class="btn" href="[add-your-resume-link]" target="_blank" rel="noreferrer"
+                >Resume</a
+              >
+              <a class="btn btn-ghost" href="https://cleanreps.vercel.app" target="_blank" rel="noreferrer"
+                >CleanReps</a
+              >
+              <a class="btn btn-ghost" href="https://notarealshop.vercel.app" target="_blank" rel="noreferrer"
+                >Novara</a
+              >
+            </div>
+          </div>
+          <aside class="card hero-card">
+            <h3>Quick Info</h3>
+            <ul>
+              <li>Location: Sydney, NSW</li>
+              <li>Email: anujingantugs0720@gmail.com</li>
+              <li>Phone: 0452 140 617</li>
+              <li>GitHub: [add-your-github-link]</li>
+              <li>LinkedIn: [add-your-linkedin-link]</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="section section-alt reveal">
+        <div class="container split">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2>Engineer Profile</h2>
+            <p>
+              I am completing a Bachelor of Computer Science (AI Major) at Western Sydney University.
+              I enjoy shipping practical products with clean architecture, responsive UI, and reliable
+              backend systems.
+            </p>
+            <div class="stats">
+              <div class="card stat">
+                <p class="stat-num">2</p>
+                <p class="stat-label">Live Projects</p>
+              </div>
+              <div class="card stat">
+                <p class="stat-num">2</p>
+                <p class="stat-label">Certifications</p>
+              </div>
+              <div class="card stat">
+                <p class="stat-num">6.5 / 7</p>
+                <p class="stat-label">Current GPA</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>Frontend: React, Next.js, HTML, CSS, Tailwind CSS</li>
+              <li>Backend: Node.js, REST APIs</li>
+              <li>Database: PostgreSQL, Prisma ORM</li>
+              <li>Languages: Java, Python, JavaScript, C++, SQL</li>
+              <li>Tools: Git, VS Code, AWS, Vercel</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="container">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected Work</h2>
+          <div class="grid two">
+            <article class="card project-card">
+              <p class="chip">Computer Vision Web App</p>
+              <h3>CleanReps - Motion Tracking Exercise App</h3>
+              <p>
+                Built real-time rep tracking from live video using MediaPipe pose estimation, session
+                tracking, and gamified leaderboards.
+              </p>
+              <p class="project-meta">Next.js, PostgreSQL, Prisma, Tailwind CSS, MediaPipe</p>
+              <a href="https://cleanreps.vercel.app" target="_blank" rel="noreferrer">Live Demo</a>
+            </article>
+            <article class="card project-card">
+              <p class="chip">E-commerce Demo Platform</p>
+              <h3>Novara - E-commerce Demo Platform</h3>
+              <p>
+                Developed product catalog and admin features with SSR product pages and scalable
+                relational schema design.
+              </p>
+              <p class="project-meta">Next.js, Prisma, PostgreSQL, Tailwind CSS</p>
+              <a href="https://notarealshop.vercel.app" target="_blank" rel="noreferrer">Live Demo</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="section section-alt reveal">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let's Connect</h2>
+          <p>
+            I usually reply within 24 hours. Feel free to contact me for software engineering
+            internship or graduate opportunities.
+          </p>
+          <p>Email: anujingantugs0720@gmail.com</p>
+          <p>Phone: 0452 140 617</p>
+        </div>
+        <form class="card contact-form" id="contactForm">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="your@email.com" required />
+          </label>
+          <label>
+            Message
+            <textarea rows="5" name="message" placeholder="Write your message" required></textarea>
+          </label>
+          <button type="submit" class="btn">Send Message</button>
+          <p id="formStatus" class="form-status"></p>
+        </form>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; <span id="year"></span> Jina. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
